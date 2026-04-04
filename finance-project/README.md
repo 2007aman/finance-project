@@ -1,5 +1,10 @@
 Finance Tracker Backend
 
+!!!!!ATTENTITON IF YOU WANT TO RUN CODE AS MUCH FAST AS POSSIBLE!!!!!!!
+docker build -t finance-backend .
+docker run -p 8000:8000 finance-backend
+ 
+
 This is a Django-based API for tracking personal finances. It handles income and expense records, provides a basic analytics summary, and includes built-in roles for security.
 Setup Instructions
 
